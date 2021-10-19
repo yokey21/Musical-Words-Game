@@ -35,7 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3213B39E271F65AB0098BC92 /* Musical Words.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Musical Words.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3213B39E271F65AB0098BC92 /* Musical Words Game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Musical Words Game.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3213B3A1271F65AB0098BC92 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3213B3A3271F65AB0098BC92 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		3213B3A5271F65AB0098BC92 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -43,10 +43,10 @@
 		3213B3AA271F65B50098BC92 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3213B3AD271F65B50098BC92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3213B3AF271F65B50098BC92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3213B3B4271F65B50098BC92 /* Musical WordsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Musical WordsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3213B3B4271F65B50098BC92 /* Musical Words GameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Musical Words GameTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3213B3B8271F65B50098BC92 /* Musical_WordsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Musical_WordsTests.swift; sourceTree = "<group>"; };
 		3213B3BA271F65B50098BC92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3213B3BF271F65B50098BC92 /* Musical WordsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Musical WordsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3213B3BF271F65B50098BC92 /* Musical Words GameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Musical Words GameUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3213B3C3271F65B50098BC92 /* Musical_WordsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Musical_WordsUITests.swift; sourceTree = "<group>"; };
 		3213B3C5271F65B50098BC92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -89,9 +89,9 @@
 		3213B39F271F65AB0098BC92 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3213B39E271F65AB0098BC92 /* Musical Words.app */,
-				3213B3B4271F65B50098BC92 /* Musical WordsTests.xctest */,
-				3213B3BF271F65B50098BC92 /* Musical WordsUITests.xctest */,
+				3213B39E271F65AB0098BC92 /* Musical Words Game.app */,
+				3213B3B4271F65B50098BC92 /* Musical Words GameTests.xctest */,
+				3213B3BF271F65B50098BC92 /* Musical Words GameUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -131,9 +131,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3213B39D271F65AB0098BC92 /* Musical Words */ = {
+		3213B39D271F65AB0098BC92 /* Musical Words Game */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3213B3C8271F65B50098BC92 /* Build configuration list for PBXNativeTarget "Musical Words" */;
+			buildConfigurationList = 3213B3C8271F65B50098BC92 /* Build configuration list for PBXNativeTarget "Musical Words Game" */;
 			buildPhases = (
 				3213B39A271F65AB0098BC92 /* Sources */,
 				3213B39B271F65AB0098BC92 /* Frameworks */,
@@ -143,14 +143,14 @@
 			);
 			dependencies = (
 			);
-			name = "Musical Words";
+			name = "Musical Words Game";
 			productName = "Musical Words";
-			productReference = 3213B39E271F65AB0098BC92 /* Musical Words.app */;
+			productReference = 3213B39E271F65AB0098BC92 /* Musical Words Game.app */;
 			productType = "com.apple.product-type.application";
 		};
-		3213B3B3271F65B50098BC92 /* Musical WordsTests */ = {
+		3213B3B3271F65B50098BC92 /* Musical Words GameTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3213B3CB271F65B50098BC92 /* Build configuration list for PBXNativeTarget "Musical WordsTests" */;
+			buildConfigurationList = 3213B3CB271F65B50098BC92 /* Build configuration list for PBXNativeTarget "Musical Words GameTests" */;
 			buildPhases = (
 				3213B3B0271F65B50098BC92 /* Sources */,
 				3213B3B1271F65B50098BC92 /* Frameworks */,
@@ -161,14 +161,14 @@
 			dependencies = (
 				3213B3B6271F65B50098BC92 /* PBXTargetDependency */,
 			);
-			name = "Musical WordsTests";
+			name = "Musical Words GameTests";
 			productName = "Musical WordsTests";
-			productReference = 3213B3B4271F65B50098BC92 /* Musical WordsTests.xctest */;
+			productReference = 3213B3B4271F65B50098BC92 /* Musical Words GameTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		3213B3BE271F65B50098BC92 /* Musical WordsUITests */ = {
+		3213B3BE271F65B50098BC92 /* Musical Words GameUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3213B3CE271F65B50098BC92 /* Build configuration list for PBXNativeTarget "Musical WordsUITests" */;
+			buildConfigurationList = 3213B3CE271F65B50098BC92 /* Build configuration list for PBXNativeTarget "Musical Words GameUITests" */;
 			buildPhases = (
 				3213B3BB271F65B50098BC92 /* Sources */,
 				3213B3BC271F65B50098BC92 /* Frameworks */,
@@ -179,9 +179,9 @@
 			dependencies = (
 				3213B3C1271F65B50098BC92 /* PBXTargetDependency */,
 			);
-			name = "Musical WordsUITests";
+			name = "Musical Words GameUITests";
 			productName = "Musical WordsUITests";
-			productReference = 3213B3BF271F65B50098BC92 /* Musical WordsUITests.xctest */;
+			productReference = 3213B3BF271F65B50098BC92 /* Musical Words GameUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -206,7 +206,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 3213B399271F65AB0098BC92 /* Build configuration list for PBXProject "Musical Words" */;
+			buildConfigurationList = 3213B399271F65AB0098BC92 /* Build configuration list for PBXProject "Musical Words Game" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -219,9 +219,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3213B39D271F65AB0098BC92 /* Musical Words */,
-				3213B3B3271F65B50098BC92 /* Musical WordsTests */,
-				3213B3BE271F65B50098BC92 /* Musical WordsUITests */,
+				3213B39D271F65AB0098BC92 /* Musical Words Game */,
+				3213B3B3271F65B50098BC92 /* Musical Words GameTests */,
+				3213B3BE271F65B50098BC92 /* Musical Words GameUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -285,12 +285,12 @@
 /* Begin PBXTargetDependency section */
 		3213B3B6271F65B50098BC92 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 3213B39D271F65AB0098BC92 /* Musical Words */;
+			target = 3213B39D271F65AB0098BC92 /* Musical Words Game */;
 			targetProxy = 3213B3B5271F65B50098BC92 /* PBXContainerItemProxy */;
 		};
 		3213B3C1271F65B50098BC92 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 3213B39D271F65AB0098BC92 /* Musical Words */;
+			target = 3213B39D271F65AB0098BC92 /* Musical Words Game */;
 			targetProxy = 3213B3C0271F65B50098BC92 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -487,7 +487,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Musical Words.app/Musical Words";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Musical Words Game.app/Musical Words Game";
 			};
 			name = Debug;
 		};
@@ -509,7 +509,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Musical Words.app/Musical Words";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Musical Words Game.app/Musical Words Game";
 			};
 			name = Release;
 		};
@@ -556,7 +556,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3213B399271F65AB0098BC92 /* Build configuration list for PBXProject "Musical Words" */ = {
+		3213B399271F65AB0098BC92 /* Build configuration list for PBXProject "Musical Words Game" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3213B3C6271F65B50098BC92 /* Debug */,
@@ -565,7 +565,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3213B3C8271F65B50098BC92 /* Build configuration list for PBXNativeTarget "Musical Words" */ = {
+		3213B3C8271F65B50098BC92 /* Build configuration list for PBXNativeTarget "Musical Words Game" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3213B3C9271F65B50098BC92 /* Debug */,
@@ -574,7 +574,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3213B3CB271F65B50098BC92 /* Build configuration list for PBXNativeTarget "Musical WordsTests" */ = {
+		3213B3CB271F65B50098BC92 /* Build configuration list for PBXNativeTarget "Musical Words GameTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3213B3CC271F65B50098BC92 /* Debug */,
@@ -583,7 +583,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3213B3CE271F65B50098BC92 /* Build configuration list for PBXNativeTarget "Musical WordsUITests" */ = {
+		3213B3CE271F65B50098BC92 /* Build configuration list for PBXNativeTarget "Musical Words GameUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3213B3CF271F65B50098BC92 /* Debug */,
